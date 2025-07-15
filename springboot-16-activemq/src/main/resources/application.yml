@@ -1,0 +1,12 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8096
+spring:
+  activemq:
+    broker-url: tcp://192.168.100.128:61616
+    in-memory: true
+    pool:
+      enabled: false
+
+#  jms:
+#    pub-sub-domain: true

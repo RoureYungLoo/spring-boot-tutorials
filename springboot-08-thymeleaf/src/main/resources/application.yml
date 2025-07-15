@@ -1,0 +1,10 @@
+# THYMELEAF (ThymeleafAutoConfiguration)
+# 开启模板缓存（默认值： true ）
+spring:
+  thymeleaf:
+    cache: true
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+server:
+  port: 8088

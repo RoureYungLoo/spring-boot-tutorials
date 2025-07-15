@@ -1,0 +1,10 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+# logging configuration
+logging:
+  config: classpath:logback.xml
+
+  level:
+    com.xxx.springboot03logging.controller: info

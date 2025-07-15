@@ -1,0 +1,8 @@
+#开发环境
+server:
+  port: 20004
+
+url:
+  orderUrl: http://localhost:8888/url/develop
+
+name: www.develop.com

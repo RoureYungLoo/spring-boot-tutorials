@@ -1,0 +1,18 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8095
+spring:
+  redis:
+    database: 0
+    host: 192.168.100.128
+    port: 6379
+    password: Redis123!
+    timeout: 5000
+    jedis:
+      pool:
+        enabled: true
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: 2000
+

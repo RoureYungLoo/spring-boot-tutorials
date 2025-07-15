@@ -1,0 +1,7 @@
+#测试环境
+url:
+  orderUrl: http://localhost:6666/url/test
+server:
+  port: 20006
+
+name: www.test.com

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxx.springboot17shiro.mapper.RoleMapper">
+
+    <insert id="saveRole" parameterType="com.xxx.springboot17shiro.entity.Role" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_role(role_name)
+        values (#{roleName})
+    </insert>
+    <update id="updateRole" parameterType="com.xxx.springboot17shiro.entity.Role">
+        update tb_role
+        set role_name = #{roleName}
+        where id = #{id}
+    </update>
+    <delete id="delete" parameterType="int">
+        delete
+        from tb_role
+        where id = #{id}
+    </delete>
+    <select id="getById" resultType="com.xxx.springboot17shiro.entity.Role" parameterType="int">
+        select * from tb_role where id = #{id}
+    </select>
+    <select id="getAll" resultType="com.xxx.springboot17shiro.entity.Role">
+        select *
+        from tb_role
+    </select>
+
+</mapper>

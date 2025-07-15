@@ -1,0 +1,91 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 20001
+
+# single url config
+url:
+  orderUrl: http://localhost:8080
+
+# many url config
+urls:
+  orderUrl: http://localhost:8003
+  userUrl: http://localhost:8004
+  shoppingUrl: http://localhost:8005
+
+name: www.default.com
+# 多环境配置文件 配置分组
+spring:
+  profiles:
+    active:
+    group:
+      "dev": "dev-db,dev-mq"
+      "prod": "pro-db,pro-mq"
+
+book:
+  name: java
+  author: zhangsan
+  descr: ${book.name} -- ${book.author}
+  token: ${random.value}
+  uid: ${random.uuid}
+
+
+
+# jasypt 加密秘钥
+jasypt:
+  encryptor:
+    password: thisIsATokenForDemo
+
+student:
+  age: 18
+  name: lisi
+  gender: male
+  password: DEC(123456)
+---
+# 开发环境
+server:
+  port: 20012
+url:
+  orderUrl: http://localhost:${server.port}/pro
+spring:
+  config:
+    activate:
+      on-profile: dev-db
+
+db: www.dev-db.com
+
+---
+# 开发环境
+server:
+  port: 200013
+url:
+  orderUrl: http://localhost:${server.port}/dev
+spring:
+  config:
+    activate:
+      on-profile: dev-mq
+
+mq: www.dev-mq.com
+
+---
+# 生产环境
+server:
+  port: 20014
+url:
+  orderUrl: http://localhost:${server.port}/dev
+spring:
+  config:
+    activate:
+      on-profile: pro-db
+db: www.pro-db.com
+
+---
+# 生产环境
+server:
+  port: 20015
+url:
+  orderUrl: http://localhost:${server.port}/dev
+spring:
+  config:
+    activate:
+      on-profile: pro-mq
+mq: www.pro-mq.com

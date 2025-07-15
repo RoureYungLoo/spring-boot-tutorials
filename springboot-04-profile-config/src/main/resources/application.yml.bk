@@ -1,0 +1,54 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 20001
+
+# single url config
+url:
+  orderUrl: http://localhost:8080
+
+# many url config
+urls:
+  orderUrl: http://localhost:8003
+  userUrl: http://localhost:8004
+  shoppingUrl: http://localhost:8005
+
+name: www.default.com
+# 多环境配置文件
+spring:
+  profiles:
+    active:
+      #- develop
+      - dev
+
+book:
+  name: java
+  author: zhangsan
+  descr: ${book.name} -- ${book.author}
+  token: ${random.value}
+  uid: ${random.uuid}
+
+---
+# 开发环境
+server:
+  port: 20002
+url:
+  orderUrl: http://localhost:${server.port}/pro
+spring:
+  config:
+    activate:
+      on-profile: pro
+
+name: www.pro.com
+
+---
+# 生产环境
+server:
+  port: 20003
+url:
+  orderUrl: http://localhost:${server.port}/dev
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+name: www.dev.com

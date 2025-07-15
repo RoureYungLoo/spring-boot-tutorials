@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+
+    <h1>用户列表</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>邮箱</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="item :${userList}">
+            <td th:text="${item.id}">1001</td>
+            <td th:text="${item.name}">张三</td>
+            <td th:text="${item.age}">23</td>
+            <td th:text="${item.email}">zhangsan@qq.com</td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+</body>
+</html>

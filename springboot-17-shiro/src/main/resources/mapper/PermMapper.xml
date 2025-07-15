@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxx.springboot17shiro.mapper.PermMapper">
+
+    <insert id="savePerm" parameterType="com.xxx.springboot17shiro.entity.Perm" useGeneratedKeys="true">
+        insert into tb_perm (perm_name)
+        values (#{permName})
+    </insert>
+    <update id="updatePerm" parameterType="com.xxx.springboot17shiro.entity.Perm">
+        update tb_perm
+        set perm_name = #{permName},
+            role_id   = #{roleId}
+        where id = #{id}
+    </update>
+    <delete id="delete" parameterType="int">
+        delete
+        from tb_perm
+        where id = #{id}
+    </delete>
+    <select id="getById" resultType="com.xxx.springboot17shiro.entity.Perm" parameterType="int">
+        select *
+        from tb_perm
+        where id = #{id}
+    </select>
+    <select id="getAll" resultType="com.xxx.springboot17shiro.entity.Perm">
+        select *
+        from tb_perm
+    </select>
+
+</mapper>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+</head>
+<body>
+<p>用户ID：<span th:text="${user.id}">1001</span></p>
+<p>用户姓名：<span th:text="${user.name}">张三</span></p>
+<p>用户年龄：<span th:text="${user.age}">23</span></p>
+<p>用户邮箱：<span th:text="${user.email}">zhangsan@qq.com</span></p>
+</body>
+</html>

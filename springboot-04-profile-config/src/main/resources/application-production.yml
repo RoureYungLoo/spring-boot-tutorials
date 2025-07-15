@@ -1,0 +1,8 @@
+#生产环境
+server:
+  port: 20005
+
+url:
+  orderUrl: http://localhost:52341//url/production
+
+name: www.production.com

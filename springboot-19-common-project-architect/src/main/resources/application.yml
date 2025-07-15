@@ -1,0 +1,22 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 80
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher # swagger2
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.128:3306/mybatis?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: MySQL123!
+    hikari:
+      maximum-pool-size: 10
+      max-lifetime: 1770000 # 毫秒
+mybatis:
+  type-aliases-package: com.xxx.springboot19commonprojectarchitect.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  mapper-locations:
+    - classpath:mapper/*.xml

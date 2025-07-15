@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-15-redis" />
+        <module name="springboot-14-interceptor" />
+        <module name="springboot-23-jpa" />
+        <module name="springboot-07-jdbctemplate" />
+        <module name="springboot-24-mybatis-plus" />
+        <module name="springboot-16-activemq" />
+        <module name="springboot-01-helloworld" />
+        <module name="springboot-20-filter" />
+        <module name="springboot-19-common-project-architect" />
+        <module name="springboot-06-swagger" />
+        <module name="springboot-08-thymeleaf" />
+        <module name="springboot-22-easy-excel" />
+        <module name="springboot-18-lucence" />
+        <module name="springboot-03-logging" />
+        <module name="springboot-05-webmvc" />
+        <module name="springboot-11-mybatis" />
+        <module name="springboot-13-listeners" />
+        <module name="springboot-21-dev-tools" />
+        <module name="springboot-17-shiro" />
+        <module name="springboot-12-transaction" />
+        <module name="springboot-02-json-result" />
+        <module name="springboot-04-profile-config" />
+        <module name="springboot-10-aop" />
+        <module name="springboot-09-global-exception" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="spring-boot-tutorials" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-00-parent" options="" />
+      <module name="springboot-23-jpa" options="" />
+      <module name="springboot-24-mybatis-plus" options="" />
+    </option>
+  </component>
+</project>

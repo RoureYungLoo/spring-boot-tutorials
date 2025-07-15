@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-10-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-15-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-17-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-webmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-11-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-18-lucence/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-16-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-13-listeners/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-21-dev-tools/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-JsonResult/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-12-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-14-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-profile-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-global-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-19-common-project-architect/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-23-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-24-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-00-parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <selected-state>
+          <State>
+            <id>User defined</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
