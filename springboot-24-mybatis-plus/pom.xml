@@ -6,6 +6,7 @@
         <groupId>com.luruoyang</groupId>
         <artifactId>springboot-00-parent</artifactId>
         <version>2.7.18-REALSE</version>
+        <relativePath>../springboot-00-parent/pom.xml</relativePath>
     </parent>
     <artifactId>springboot-24-mybatis-plus</artifactId>
     <version>2.7.18</version>

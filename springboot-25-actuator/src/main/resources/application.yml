@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: springboot-25-actuator
+management:
+  endpoints:
+    enabled-by-default: true # \u5F00\u542F\u6240\u6709 endpoints
+    web:
+      exposure:
+        include: beans,env,health,info,metrics # \u5F00\u542F\u8FD9\u51E0\u4E2Aendpoints, \u53EF\u4EE5\u4F7F\u7528\u901A\u914D\u7B26*
+        exclude: caches,flyway # \u5173\u95ED\u8FD9\u51E0\u4E2Aendpoints, \u53EF\u4EE5\u4F7F\u7528\u901A\u914D\u7B26*
+    jmx:
+      exposure:
+        include: beans,info,metrics # \u9ED8\u8BA4\u503C\u4E3A\u901A\u914D\u7B26*
+        exclude: caches,env # \u9ED8\u8BA4\u503C\u4E3A\u7A7A
+  endpoint:
+    health:
+      enabled: true # \u5F00\u542F health endpoint

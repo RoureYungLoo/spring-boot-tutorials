@@ -13,6 +13,7 @@
         <groupId>com.luruoyang</groupId>
         <artifactId>springboot-00-parent</artifactId>
         <version>2.7.18-REALSE</version>
+        <relativePath>../springboot-00-parent/pom.xml</relativePath>
     </parent>
 
     <properties>
@@ -39,6 +40,10 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.35</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
     <dependencyManagement>
