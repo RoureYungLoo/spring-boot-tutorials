@@ -34,6 +34,10 @@
         <module>../springboot-20-filter</module>
         <module>../springboot-21-dev-tools</module>
         <module>../springboot-22-easy-excel</module>
+        <module>../springboot-23-jpa</module>
+        <module>../springboot-24-mybatis-plus</module>
+        <module>../springboot-25-actuator</module>
+        <module>../springboot-26-security</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author luruoyang
+ */
 @RestController
 @RequestMapping("/hello")
 public class HelloController {
