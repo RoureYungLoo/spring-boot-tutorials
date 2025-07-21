@@ -1,6 +1,10 @@
 spring:
   application:
     name: springboot-25-actuator
+#  main:
+#    banner-mode: log
+#  banner:
+#    location: classpath:mybanner.banner
 management:
   endpoints:
     enabled-by-default: true # 开启所有 endpoints
@@ -15,3 +19,5 @@ management:
   endpoint:
     health:
       enabled: true # 开启 health endpoint
+server:
+  shutdown: graceful # 优雅停机

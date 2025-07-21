@@ -11,7 +11,6 @@
 
     <packaging>pom</packaging>
     <modules>
-        <module>../springboot-24-mybatis-plus</module>
         <module>../springboot-01-helloworld</module>
         <module>../springboot-02-json-result</module>
         <module>../springboot-03-logging</module>
