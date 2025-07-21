@@ -2,13 +2,13 @@ package com.xxx.springboot13listeners.listener;
 
 import com.xxx.springboot13listeners.entity.User;
 import com.xxx.springboot13listeners.service.UserService;
+import jakarta.servlet.ServletContext;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletContextListener;
+
 
 /* 监听Servlet上下文对象 */
 @Component

@@ -7,7 +7,6 @@ import com.xxx.springboot19commonprojectarchitect.exception.BusinessMsgEnum;
 import com.xxx.springboot19commonprojectarchitect.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.omg.CORBA.IRObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.GetMapping;

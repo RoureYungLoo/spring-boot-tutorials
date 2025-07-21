@@ -5,20 +5,20 @@
     <parent>
         <groupId>com.luruoyang</groupId>
         <artifactId>springboot-00-parent</artifactId>
-        <version>2.7.18-REALSE</version>
+        <version>3.4.5-REALSE</version>
         <relativePath>../springboot-00-parent/pom.xml</relativePath>
     </parent>
     <artifactId>springboot-26-security</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>3.4.5-REALSE</version>
     <name>springboot-26-security</name>
     <description>springboot-26-security</description>
     <properties>
-        <java.version>1.9</java.version>
-        <maven.compiler.source>9</maven.compiler.source>
-        <maven.compiler.target>9</maven.compiler.target>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>2.7.18</spring-boot.version>
+        <spring-boot.version>3.4.5</spring-boot.version>
     </properties>
     <dependencies>
         <dependency>
@@ -48,8 +48,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>1.9</source>
-                    <target>1.9</target>
+                    <source>17</source>
+                    <target>17</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>

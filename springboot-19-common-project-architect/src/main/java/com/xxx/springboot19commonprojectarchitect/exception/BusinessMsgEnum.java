@@ -1,6 +1,5 @@
 package com.xxx.springboot19commonprojectarchitect.exception;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
 
 public enum BusinessMsgEnum {
     /* ID 参数缺失*/

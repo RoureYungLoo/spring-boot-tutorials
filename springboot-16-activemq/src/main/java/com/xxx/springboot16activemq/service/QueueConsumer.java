@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
 
-import javax.jms.Destination;
 
 @Service
 public class QueueConsumer {
