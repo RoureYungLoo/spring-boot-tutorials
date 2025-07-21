@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/springboot-24-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-00-parent/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-25-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-26-security/pom.xml" />
       </list>
     </option>
   </component>
