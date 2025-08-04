@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/springboot-00-parent/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-25-actuator/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-26-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-27-swagger/pom.xml" />
       </list>
     </option>
   </component>
@@ -45,7 +46,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

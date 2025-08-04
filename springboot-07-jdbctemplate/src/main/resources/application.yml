@@ -5,9 +5,25 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.100.128:3306/jdbc_template?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    url: jdbc:mysql://www.common.develop:3306/jdbc_template?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
     username: root
     password: MySQL123!
+#    hikari:
+#      jdbc-url: jdbc:mysql://www.common.develop:3306/jdbc_template?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+#      username: root
+#      password: MySQL123!
+#      maximum-pool-size: 200
+#      minimum-idle: 100
+#      connection-timeout: 30000
+#      idle-timeout: 30000
+#      max-lifetime: 30000
+    druid:
+      initial-size: 10
+      min-idle: 5
+      max-wait: 30000
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
 
 logging:
   level:
