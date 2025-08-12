@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springboot-00-parent/springboot-27-jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-00-parent/springboot-27-jwt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-00-parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-00-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/java" charset="UTF-8" />
@@ -55,6 +57,8 @@
     <file url="file://$PROJECT_DIR$/springboot-25-actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-26-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-26-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-27-jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-27-jwt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

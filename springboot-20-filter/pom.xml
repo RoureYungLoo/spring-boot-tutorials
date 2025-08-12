@@ -3,13 +3,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>springboot-20-filter</artifactId>
-    <version>3.4.5-REALSE</version>
+    <version>3.5.4-REALSE</version>
     <name>springboot-20-filter</name>
     <description>springboot-20-filter</description>
     <parent>
         <groupId>com.luruoyang</groupId>
         <artifactId>springboot-00-parent</artifactId>
-        <version>3.4.5-REALSE</version>
+        <version>3.5.4-REALSE</version>
         <relativePath>../springboot-00-parent/pom.xml</relativePath>
     </parent>
 

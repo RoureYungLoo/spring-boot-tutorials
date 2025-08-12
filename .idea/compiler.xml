@@ -17,6 +17,7 @@
         <module name="springboot-12-transaction" />
         <module name="springboot-02-json-result" />
         <module name="springboot-10-aop" />
+        <module name="springboot-27-jwt" />
         <module name="springboot-26-security" />
         <module name="springboot-15-redis" />
         <module name="springboot-14-interceptor" />
@@ -37,6 +38,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
       <module name="spring-boot-tutorials" target="1.8" />
+      <module name="springboot-27-swagger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -1,2 +1,7 @@
 server:
-  port: 7079
+  port: 8026
+
+jwt:
+  secret-key: your_key # jwt签名加密秘钥
+  ttl: 7200000 # jwt过期时间
+  token-name: Authorization # 前端传递过来的令牌名称

@@ -5,7 +5,7 @@
 
     <groupId>com.luruoyang</groupId>
     <artifactId>springboot-00-parent</artifactId>
-    <version>3.4.5-REALSE</version>
+    <version>3.5.4-REALSE</version>
     <name>springboot-00-parent</name>
     <description>springboot-00-parent</description>
 
@@ -37,12 +37,17 @@
         <module>../springboot-24-mybatis-plus</module>
         <module>../springboot-25-actuator</module>
         <module>../springboot-26-security</module>
+        <module>../springboot-27-jwt</module>
     </modules>
     <properties>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>3.4.5</spring-boot.version>
+        <spring-boot.version>3.5.4</spring-boot.version>
+        <druid.version>1.2.21</druid.version>
+        <mybatis-plus.version>3.5.12</mybatis-plus.version>
+        <knif4j.version>4.4.0</knif4j.version>
+        <jwt.version>0.12.6</jwt.version>
     </properties>
 
     <dependencyManagement>
@@ -54,6 +59,44 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- druid -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-3-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!-- mybatis-plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+                <version>${knif4j.version}</version>
+            </dependency>
+            <!-- JWT -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-api</artifactId>
+                <version>${jwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-impl</artifactId>
+                <version>${jwt.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson if Gson is preferred -->
+                <version>${jwt.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 

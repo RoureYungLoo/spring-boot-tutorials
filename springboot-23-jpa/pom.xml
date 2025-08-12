@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.luruoyang</groupId>
         <artifactId>springboot-00-parent</artifactId>
-        <version>3.4.5-REALSE</version>
+        <version>3.5.4-REALSE</version>
         <relativePath>../springboot-00-parent/pom.xml</relativePath>
     </parent>
     <artifactId>springboot-23-jpa</artifactId>
-    <version>3.4.5-REALSE</version>
+    <version>3.5.4-REALSE</version>
     <name>springboot-23-jpa</name>
     <description>springboot-23-jpa</description>
     <properties>
@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>3.4.5</spring-boot.version>
+        <spring-boot.version>3.5.4</spring-boot.version>
     </properties>
     <dependencies>
         <dependency>

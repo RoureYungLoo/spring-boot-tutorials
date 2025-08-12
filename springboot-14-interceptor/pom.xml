@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>springboot-14-interceptor</artifactId>
-    <version>3.4.5-REALSE</version>
+    <version>3.5.4-REALSE</version>
 
     <name>springboot-14-interceptor</name>
     <description>springboot-14-interceptor</description>
     <parent>
         <groupId>com.luruoyang</groupId>
         <artifactId>springboot-00-parent</artifactId>
-        <version>3.4.5-REALSE</version>
+        <version>3.5.4-REALSE</version>
         <relativePath>../springboot-00-parent/pom.xml</relativePath>
     </parent>
     <dependencies>
